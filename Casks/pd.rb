@@ -8,5 +8,7 @@ cask :v1 => 'pd' do
   license :bsd
 
   app 'Pd-0.46-6.app', :target => 'Pd.app'
+  
+  depends_on :macos => '>= 10.4'
 
 end
