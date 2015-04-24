@@ -11,5 +11,7 @@ cask :v1 => 'pd-gem' do
   suite 'Gem-0.93.3/pix_drum', :target => '/Applications/Pd.app/contents/resources/extra/pix_drum'
   suite 'Gem-0.93.3/pix_fiducialtrack', :target => '/Applications/Pd.app/contents/resources/extra/pix_fiducialtrack'
   suite 'Gem-0.93.3/pix_mano', :target => '/Applications/Pd.app/contents/resources/extra/pix_mano'
+  
+  depends_on :cask => 'Pd'
 
 end
