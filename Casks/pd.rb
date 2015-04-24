@@ -9,7 +9,4 @@ cask :v1 => 'pd' do
 
   app 'Pd-0.46-6.app', :target => 'Pd.app'
 
-  postflight do
-    system '/bin/chmod', '-R', '--', 'u+w', "#{staged_path}/Pd-0.46-5-64bit.app"
-  end
 end
