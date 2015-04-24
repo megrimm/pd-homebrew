@@ -12,7 +12,4 @@ cask :v1 => 'pd-gem' do
   suite 'Gem-0.93.3/pix_fiducialtrack', :target => '/Applications/Pd.app/contents/resources/extra/pix_fiducialtrack'
   suite 'Gem-0.93.3/pix_mano', :target => '/Applications/Pd.app/contents/resources/extra/pix_mano'
 
-  # caveats do
-  #  puts "staged_path #{staged_path}"
-  # end
 end
