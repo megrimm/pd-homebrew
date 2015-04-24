@@ -2,7 +2,7 @@ cask :v1 => 'pd-gem' do
   version '0.93.3'
   sha256 '08884215fe5843f05e02f799577c43a5577b6d46f01495eba48c93b391833fb1'
 
-  url "http://gem.iem.at/releases/0.93.3/Gem-0.93.3-OSX-ppc_i386.tar.gz"
+  url "http://gem.iem.at/releases/#{version}/Gem-#{version}-OSX-ppc_i386.tar.gz"
   name 'Gem'
   homepage 'http://gem.iem.at/'
   license :bsd
