@@ -1,0 +1,9 @@
+install ffmpeg with all options
+$ brew install ffmpeg $(brew info ffmpeg | egrep "^--with-")
+
+install gavl
+$ brew install gavl
+
+install gmerlin
+$ brew install gmerlin-avdecoder
+
