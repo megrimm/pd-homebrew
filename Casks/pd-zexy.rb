@@ -1,3 +1,0 @@
-# homebrew-pd
-
-NOTHING HERE
