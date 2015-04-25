@@ -10,5 +10,7 @@ cask :v1 => 'pd' do
   app 'Pd-0.46-6.app', :target => 'Pd.app'
   
   depends_on :macos => '>= 10.4'
-
+  
+  zap :delete => '~/Library/Preferences/org.puredata.plist'
+  
 end
