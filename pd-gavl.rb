@@ -5,7 +5,7 @@ class Gavl < Formula
   url "https://downloads.sourceforge.net/project/gmerlin/gavl/1.4.0/gavl-1.4.0.tar.gz"
   sha1 "b1ef06942ff00b4d0c8dc361213a1542717855cc"
 
-  head 'svn://svn.code.sf.net/p/gmerlin/code/trunk/gavl', :revision => "4225"
+  head 'svn://svn.code.sf.net/p/gmerlin/code/trunk/gavl', :revision => "4519"
 
   head do
     depends_on 'autoconf' => :build
